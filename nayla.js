@@ -127,7 +127,7 @@ break
 
 case 'daftar':
 if (cekUser("id", sender) !== null) return reply("Kamu sudah terdaftar sebelum nya:3 Gunakan command #menu untuk mengetahui apa saja fungsi bot ini")
-daftar.push({id: sender, emote:"👑", ban:false})
+daftar.push({id: sender, emote:"👌🏻", ban:false})
 fs.writeFileSync('./db/function/daftar.json', JSON.stringify(daftar))
 reply(`[ *SUKSES TERDAFTAR* ] 
 • *Pushname* : ${m.messages[0].pushName}
